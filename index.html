@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>APP</title>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<style>
+			canvas {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id = 'container'>
+			<canvas id = 'canvasElement' width = '600' height = '450' 
+					onContextMenu = 'return false;'>
+				<!-- 
+					Message affiché si canvas n'est pas supporté par le navigateur 
+				-->
+				Votre navigateur ne gère pas les canvas.
+				Changez-le ou mettez-le à jour.
+			</canvas>	
+		</div>	
+		<script type = 'text/javascript' src = './static/bundle.js'></script>
+	</body>
+</html>
